@@ -33,8 +33,8 @@ Prerequisites
 
 Tests serve 3 purposes:
 
-* Acceptance Criteria - Ensures developed code meets specification
-* Regression Testing - Ensures new changes don't impact previous developed code
+* [Acceptance Criteria](https://en.wikipedia.org/wiki/Acceptance_testing) - Ensures developed code meets specification
+* [Regression Testing](https://en.wikipedia.org/wiki/Regression_testing) - Ensures new changes don't impact previous developed code
 * **Documentation** - Demonstrates how the application behaves
 
 To achieve proper documentation, a good starting point is to create naming conventions for the tests.
