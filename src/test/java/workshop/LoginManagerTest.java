@@ -20,7 +20,7 @@ public class LoginManagerTest {
   }
 
   @Test
-  public void testLogin_CredentialsAreValid_ShouldReturnTrue() throws EmptyPasswordException, InvalidCredentialsException {
+  public void testLogin_CredentialsAreValid_ShouldReturnTrue() throws EmptyPasswordThrowable, InvalidCredentialsThrowable {
     // Arrange
     String username = "myuser";
     String password = "mypassword";
@@ -33,8 +33,8 @@ public class LoginManagerTest {
   }
 
   // Assert
-  @Test(expected = InvalidCredentialsException.class)
-  public void testLogin_CredentialsAreNotValid_ShouldThrowInvalidCredentialsException() throws EmptyPasswordException, InvalidCredentialsException {
+  @Test(expected = InvalidCredentialsThrowable.class)
+  public void testLogin_CredentialsAreNotValid_ShouldThrowInvalidCredentialsThrowable() throws EmptyPasswordThrowable, InvalidCredentialsThrowable {
     // Arrange
     String username = "invaliduser";
     String password = "mypassword";
@@ -44,8 +44,8 @@ public class LoginManagerTest {
   }
 
   // Assert
-  @Test(expected = EmptyPasswordException.class)
-  public void testLogin_PasswordIsEmpty_ShouldThrowEmptyPasswordException() throws EmptyPasswordException, InvalidCredentialsException {
+  @Test(expected = EmptyPasswordThrowable.class)
+  public void testLogin_PasswordIsEmpty_ShouldThrowEmptyPasswordThrowable() throws EmptyPasswordThrowable, InvalidCredentialsThrowable {
     // Arrange
     String username = "invaliduser";
 

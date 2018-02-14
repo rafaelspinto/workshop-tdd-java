@@ -1,25 +1,25 @@
 package workshop;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public class LoginManager {
 
 
-  private final HashMap<String, String> userRepo;
+  private final Map<String, String> userRepo;
 
-  public LoginManager(HashMap<String, String> userRepo) {
+  public LoginManager(Map<String, String> userRepo) {
     this.userRepo = userRepo;
   }
 
-  public boolean login(String username, String password) throws EmptyPasswordException, InvalidCredentialsException {
+  public boolean login(String username, String password) throws EmptyPasswordThrowable, InvalidCredentialsThrowable {
     if(userRepo.containsKey(username) && userRepo.get(username) == password ) {
       return true;
     }
 
     if(password.isEmpty()) {
-      throw new EmptyPasswordException();
+      throw new EmptyPasswordThrowable();
     }
 
-    throw new InvalidCredentialsException();
+    throw new InvalidCredentialsThrowable();
   }
 }
