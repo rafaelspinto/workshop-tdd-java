@@ -4,9 +4,9 @@ This workshop is designed to help you start or improve your [Test Driven Develop
 
 ## What is TDD
 
-[Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) or Test First Development is a process that consists of turning the requirements of the software application into specific test cases (also known as acceptance criteria). 
+[Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) or Test First Development is a process that consists of turning the requirements of the software application into specific test cases (acceptance criteria) and then implement the source code.
 
-This process uses the red/green/refactor pattern that consists of the following steps: 
+This process uses the red/green/refactor pattern and consists of the following steps:
 
 1. Create Test
 2. Run Tests (should fail - Red)
@@ -15,6 +15,12 @@ This process uses the red/green/refactor pattern that consists of the following 
 5. Refactor
 
 Repeat  
+
+## Table of contents
+
+* [Quick start](#quick-start)
+* [Naming conventions](#naming-conventions)
+* [AAA Pattern](#aaa-pattern)
 
 ## Quick start
 
@@ -25,7 +31,7 @@ Prerequisites
 
 ## Naming conventions
 
-Unit Tests serve 3 purposes:
+Tests serve 3 purposes:
 
 * Acceptance Criteria - Ensures developed code meets specification
 * Regression Testing - Ensures new changes don't impact previous developed code
@@ -66,7 +72,7 @@ Example:
 
 ```java
 @Test
-  public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
+public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
     // Arrange
     int a = 10;
     int b = 20;
@@ -77,5 +83,5 @@ Example:
 
     // Assert
     Assert.assertTrue(result > 0);
-  }
+}
 ```
