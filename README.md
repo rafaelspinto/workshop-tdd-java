@@ -41,7 +41,7 @@ You can define your own conventions keeping in mind that the test methods should
 
 Example:
 
-```
+```java
 @Test
 public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
 ...
@@ -51,3 +51,31 @@ public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
 The method name should be read as :
 
 Test sum **IF** both numbers are positive **THEN** should return positive number.
+
+
+### AAA Pattern
+
+Tests typically follow the AAA pattern:
+
+* **A**rrange - Setup of the Scenario, e.g.: creating the input data
+* **A**ct - Executing the action/method
+* **A**ssert - Validation of the outcome
+
+Example:
+
+
+```java
+@Test
+  public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
+    // Arrange
+    int a = 10;
+    int b = 20;
+    Calculator calc = new Calculator();
+
+    // Act
+    int result = calc.sum(a, b);
+
+    // Assert
+    Assert.assertTrue(result > 0);
+  }
+```
