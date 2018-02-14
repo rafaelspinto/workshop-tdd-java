@@ -1,0 +1,12 @@
+language: java
+
+dist: trusty
+
+addons:
+  sonarcloud:
+    organization: rafaelspinto-github
+    token:
+        secure: j8kq5cQDxJn8qc9b88uSk3LRbJp1fLPx01peRQ6HeYM67BJJ1iXtIg11wXcoPAnpHkAL2+AXeZQIwgLvTyuk1Ri8WQpkMsSid95MiShbm7WP6nYie9vkQRW7BUEXzivaqw8kkMQNWH7/rVsB+i1jq3Ind1UcN1jmX4kysd9bgjt4wPfBcY1q8j3jTNSOTMlWTISvagbUV5nQFeGONLS1bOHqhL5jbvzDE+rpZEv8Ij0H95Rhqym1yCqKKEx7+/iWRDjpX/TZWgtWYRjiiR9s796w+p6RAACd310wGOhbuGs415hU+Y7+hoOEL0QuZ8rRf8r6LJJZx6PbJFhi5R2KEtzpCbDURJP0nCbSNkeP7F4WF3JTCKqlA1KmEfoUax6JlxuDUKyRt3rm78l15Gr9vis7jnsI4V4pkQREEGQcGk2pzkwNlRxGioLDB08eJYi2XiZoamSZ9kXbfY022pRZUYQjaFmQ4GGErzt4maIIFY0AmOCsXONztG6mLAVZF6zM4pjNfzJCtcaWr0AJkr4vQY0xY6SlFQPoxoDOyNCA8HFPKdtVxuAPzFAXHK+4SM9TQgvhEmlbOkPepba7k+wE2FpHHqNQZ+sN3sRhx7BBr3DLD3o1ka+858lQHFBGZKP8EzBV42TPZatnmJdr8PXOtIJ2TZluNxbc3lbJjTHz58I=
+
+script:
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
