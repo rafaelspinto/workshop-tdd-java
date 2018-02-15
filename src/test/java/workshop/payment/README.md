@@ -1,13 +1,13 @@
 # Payment Broker
 
-Implement a payment broker that alows for payments to be done to a provider using wallet funds.
+Implement a payment broker that supports the pay operation with a wallet and a payment provider.
 
 
-## Acceptance Criteria (pay)
+## Acceptance Criteria
 
 * if wallet has funds and provider is available and deposit succeeds should return true.
-* if wallet does not have funds should throw InsufficientFundsException
-* if provider is not available should throw ProviderNotAvailableException
+* if wallet does not have funds should throw InsufficientFundsException.
+* if provider is not available should throw ProviderNotAvailableException.
 
 
 ## Uses

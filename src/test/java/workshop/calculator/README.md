@@ -1,9 +1,9 @@
 # Calculator
 
-Implement a calculator that has the the sum operation.
+Implement a calculator that supports the sum operation.
 
 
-## Acceptance criteria (sum)
+## Acceptance criteria
 
 * if numbers are positive the result should be positive.
 * if numbers are negative the result should be negative.

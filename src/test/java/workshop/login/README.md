@@ -1,13 +1,13 @@
 # Login Manager
 
-Implement a login manager allows users to login. 
+Implement a login manager that supports the login operation.
 
 
-## Acceptance Criteria (login)
+## Acceptance Criteria
 
-* if credentials are valid should return true
-* if credentials are invalid should throw InvalidCredentialsException
-* if password is empty should throw EmptyPasswordException
+* if credentials are valid should return true.
+* if credentials are invalid should throw InvalidCredentialsException.
+* if password is empty should throw EmptyPasswordException.
 
 ## Uses
 
