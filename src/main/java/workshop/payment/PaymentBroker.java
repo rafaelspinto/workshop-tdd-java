@@ -18,10 +18,6 @@ public class PaymentBroker {
       throw new ProviderNotAvailableException();
     }
 
-    if(provider.deposit(wallet.getId(), amount)) {
-      return true;
-    }
-
-    return false;
+    return provider.deposit(wallet.getId(), amount);
   }
 }
