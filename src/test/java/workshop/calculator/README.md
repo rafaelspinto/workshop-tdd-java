@@ -1,11 +1,15 @@
 # Calculator
 
-Implement a calculator that meets the following criteria:
+Implement a calculator that implements the sum operation.
 
 
-**Adding numbers (sum)**
+## Acceptance criteria (sum)
 
-* When adding: 
-    * positive numbers the result should be positive.
-    * negative numbers the result should be negative.
-    * opposite numbers the result should be zero.
+* if numbers are positive the result should be positive.
+* if numbers are negative the result should be negative.
+* if numbers are opposite the result should be zero.
+
+
+## Uses
+
+* [JUnit](https://junit.org/junit4/)

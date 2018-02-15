@@ -112,14 +112,14 @@ When the code you are implementing has a dependency, using this technique, you c
 Example:
 
 
-* Mock
+* **Mock**
 
 ```java
 provider = mock(PaymentProviderInterface.class);
 broker = new PaymentBroker(provider);
 ```
 
-* Stub
+* **Stub**
 ```java
 provider = mock(PaymentProviderInterface.class);
 broker = new PaymentBroker(provider);
