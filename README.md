@@ -1,7 +1,6 @@
 # TDD Workshop using Java
 [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Lines](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=ncloc)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Coverage](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=coverage)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Code Smells](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=code_smells)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Bugs](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=bugs)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Blockers](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=blocker_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Critical](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=critical_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
 
-
 This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) skills.
 
 The [examples](#examples) you will see in this workshop are designed to demonstrate the advantages and technicalities of TDD. The intention is to represent real-world scenarios, however sometimes that will not be possible in favour of simplicity.
@@ -148,6 +147,13 @@ There are plenty of tools out there that can help you with this. In this worksho
     You can check the current status of the workshop project by clicking the following badge:
 
     [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
+
+* **Kanban Board** - Allows you to track your project's work with a workflow visualization tool. In this project we are using [Trello](https://trello.com/).
+
+    You can check the current status of the workshop project by clicking the following link:
+
+    [Trello Board](https://trello.com/b/rvbvAXFn/workshop-tdd-java)
+
 
 ## Examples
 
