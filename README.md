@@ -158,6 +158,6 @@ There are plenty of tools out there that can help you with this. In this worksho
 ## Examples
 
 * [Calculator](/src/test/java/workshop/calculator) - Simple example to get you started
-* [StringProcessor](/src/test/java/workshop/strings) - Working with data providers
 * [LoginManager](/src/test/java/workshop/login) - Working with exceptions
+* [StringProcessor](/src/test/java/workshop/strings) - Working with data providers
 * [PaymentBroker](/src/test/java/workshop/payment) - Working with dependencies, mocks and stubs
