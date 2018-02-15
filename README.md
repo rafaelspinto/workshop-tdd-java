@@ -26,6 +26,7 @@ Repeat
 * [AAA Pattern](#aaa-pattern)
 * [Mocks & Stubs](#mocks--stubs)
 * [Instant Feedback Tools](#instant-feedback-tools)
+* [Examples](#examples)
 
 ## Quick start
 
@@ -144,3 +145,9 @@ There are plenty of tools out there that can help you with this. In this worksho
     You can check the current status of the workshop project by clicking the following badge:
 
     [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
+
+## Examples
+
+* [Calculator](/tree/master/src/test/java/workshop/calculator) - Simple example to get you started
+* [LoginManager](/tree/master/src/test/java/workshop/login) - Working with exceptions
+* [PaymentBroker](/tree/master/src/test/java/workshop/payment) - Working with dependencies and mocks and stubs
