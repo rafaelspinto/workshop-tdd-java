@@ -148,6 +148,6 @@ There are plenty of tools out there that can help you with this. In this worksho
 
 ## Examples
 
-* [Calculator](/tree/master/src/test/java/workshop/calculator) - Simple example to get you started
-* [LoginManager](/tree/master/src/test/java/workshop/login) - Working with exceptions
-* [PaymentBroker](/tree/master/src/test/java/workshop/payment) - Working with dependencies and mocks and stubs
+* [Calculator](/src/test/java/workshop/calculator) - Simple example to get you started
+* [LoginManager](/src/test/java/workshop/login) - Working with exceptions
+* [PaymentBroker](/src/test/java/workshop/payment) - Working with dependencies and mocks and stubs
