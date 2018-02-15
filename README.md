@@ -6,7 +6,7 @@ This workshop is designed to help you start or improve your [Test Driven Develop
 
 [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) or Test First Development is a process that consists of turning the requirements of the software application into specific test cases (acceptance criteria) and then implement the source code.
 
-This process uses the red/green/refactor pattern and consists of the following steps:
+This process uses the **red/green/refactor** pattern and consists of the following steps:
 
 1. Create Test
 2. Run Tests (should fail - Red)
@@ -19,6 +19,7 @@ Repeat
 ## Table of contents
 
 * [Quick start](#quick-start)
+* [Tools/Frameworks](#tools/frameworks)
 * [Naming conventions](#naming-conventions)
 * [AAA Pattern](#aaa-pattern)
 
@@ -28,6 +29,16 @@ Prerequisites
 
 * You have an IDE or a text editor
 * You have [Maven](https://maven.apache.org/) installed
+
+
+## Tools/Frameworks
+
+We will be using a few tools/frameworks to facilitate our job.
+
+* [JUnit](https://junit.org/junit4/) - Unit Testing Framework
+* [mockito](http://site.mockito.org/) - Mocking Framework for Unit Tests
+* [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - Data Provider Runner for JUnit
+
 
 ## Naming conventions
 
