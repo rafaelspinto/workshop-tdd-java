@@ -1,7 +1,7 @@
 # TDD Workshop using Java [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
 This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) skills.
 
-The examples you will see in this workshop are designed to demonstrate the advantages and technicalities of TDD. The intention is to represent real-world scenarios, however sometimes that will not be possible in favour of simplicity.
+The [examples](#examples) you will see in this workshop are designed to demonstrate the advantages and technicalities of TDD. The intention is to represent real-world scenarios, however sometimes that will not be possible in favour of simplicity.
 
 
 ## What is TDD
