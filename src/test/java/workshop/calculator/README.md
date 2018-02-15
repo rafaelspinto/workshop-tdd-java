@@ -1,6 +1,6 @@
 # Calculator
 
-Implement a calculator that implements the sum operation.
+Implement a calculator that has the the sum operation.
 
 
 ## Acceptance criteria (sum)
