@@ -134,13 +134,13 @@ Typically most of the feedback comes from the user/client of your software, but 
 
 There are plenty of tools out there that can help you with this. In this workshop we will be using the following:
 
-* Automation Server - Allows you to automate the test execution ([Continuous Integration](https://www.thoughtworks.com/continuous-integration)) and other routines associated with it ([Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)/[Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment/)). In this particular case we are using [Travis CI](https://travis-ci.org/).
+* **Automation Server** - Allows you to automate the test execution ([Continuous Integration](https://www.thoughtworks.com/continuous-integration)) and other routines associated with it ([Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)/[Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment/)). In this particular case we are using [Travis CI](https://travis-ci.org/).
 
     You can check the current status of the workshop project by clicking the following badge:
 
    [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java)
 
-* Static Code Analysis - Allows you continuously inspect the quality of the code by detecting issues and providing suggestions to solve them. In this project we are using [SonarCloud](http://sonarcloud.io).
+* **Static Code Analyzer** - Allows you to continuously inspect the quality of the code by detecting issues and providing suggestions to solve them. In this project we are using [SonarCloud](http://sonarcloud.io).
 
     You can check the current status of the workshop project by clicking the following badge:
 
@@ -150,4 +150,4 @@ There are plenty of tools out there that can help you with this. In this worksho
 
 * [Calculator](/src/test/java/workshop/calculator) - Simple example to get you started
 * [LoginManager](/src/test/java/workshop/login) - Working with exceptions
-* [PaymentBroker](/src/test/java/workshop/payment) - Working with dependencies and mocks and stubs
+* [PaymentBroker](/src/test/java/workshop/payment) - Working with dependencies, mocks and stubs
