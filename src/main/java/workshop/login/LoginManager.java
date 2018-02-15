@@ -1,4 +1,4 @@
-package workshop;
+package workshop.login;
 
 import java.util.Map;
 

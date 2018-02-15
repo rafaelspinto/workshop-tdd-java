@@ -1,4 +1,4 @@
-package workshop;
+package workshop.login;
 
 import junit.framework.Assert;
 import org.junit.Before;

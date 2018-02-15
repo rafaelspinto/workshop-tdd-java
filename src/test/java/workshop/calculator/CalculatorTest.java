@@ -1,4 +1,4 @@
-package workshop;
+package workshop.calculator;
 
 import junit.framework.Assert;
 import org.junit.Test;

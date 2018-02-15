@@ -1,4 +1,4 @@
-package workshop;
+package workshop.login;
 
 public class EmptyPasswordThrowable extends Throwable {
 }
