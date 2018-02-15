@@ -21,10 +21,11 @@ Repeat
 ## Table of contents
 
 * [Quick start](#quick-start)
-* [Tools/Frameworks](#toolsframeworks)
+* [Testing Tools/Frameworks](#testing-toolsframeworks)
 * [Naming conventions](#naming-conventions)
 * [AAA Pattern](#aaa-pattern)
 * [Mocks & Stubs](#mocks--stubs)
+* [Instant Feedback Tools](#instant-feedback-tools)
 
 ## Quick start
 
@@ -123,3 +124,23 @@ provider = mock(PaymentProviderInterface.class);
 broker = new PaymentBroker(provider);
 when(provider.isAvailable()).thenReturn(false);
 ```
+
+## Instant Feedback Tools
+
+Feedback is one of the most important things in the development world, the sooner you get it the better.
+
+Typically most of the feedback comes from the user/client of your software, but you should be getting it before you ship it.
+
+There are plenty of tools out there that can help you with this. In this workshop we will be using the following:
+
+* Automation Server - Allows you to automate the test execution ([Continuous Integration](#https://www.thoughtworks.com/continuous-integration)) and other routines associated with it ([Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)/[Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment/)). In this particular case we are using [Travis CI](https://travis-ci.org/).
+
+    You can check the current status of the workshop project by clicking the following badge:
+
+   [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java)
+
+* Static Code Analysis - Allows you continuously inspect the quality of the code by detecting issues and providing suggestions to solve them. In this project we are using [SonarCloud](http://sonarcloud.io).
+
+    You can check the current status of the workshop project by clicking the following badge:
+
+    [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
