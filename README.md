@@ -1,6 +1,8 @@
 # TDD Workshop using Java [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
 This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) skills.
 
+The examples you will see in this workshop are designed to demonstrate the advantages and technicalities of TDD. The intention is to represent real-world scenarios, however sometimes that will not be possible in favour of simplicity.
+
 
 ## What is TDD
 
@@ -22,6 +24,7 @@ Repeat
 * [Tools/Frameworks](#toolsframeworks)
 * [Naming conventions](#naming-conventions)
 * [AAA Pattern](#aaa-pattern)
+* [Mocks & Stubs](#mocksstubs)
 
 ## Quick start
 
@@ -95,4 +98,28 @@ public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
     // Assert
     Assert.assertTrue(result > 0);
 }
+```
+
+## Mocks & Stubs
+
+[Mocks](https://en.wikipedia.org/wiki/Mock_object) and [Stubs](https://en.wikipedia.org/wiki/Method_stub) are used to facilitate testing by solving the problem of dependencies.
+
+When the code you are implementing has a dependency, using this technique, you create a fake object that emulates that dependency. If you are required to define specific return values to emulate a certain scenario then you'll need to use a **stub** otherwise you'll simply use a **mock**.
+
+
+Example:
+
+
+* Mock
+
+```java
+provider = mock(PaymentProviderInterface.class);
+broker = new PaymentBroker(provider);
+```
+
+* Stub
+```java
+provider = mock(PaymentProviderInterface.class);
+broker = new PaymentBroker(provider);
+when(provider.isAvailable()).thenReturn(false);
 ```
