@@ -11,15 +11,15 @@ public class LoginManager {
     this.userRepo = userRepo;
   }
 
-  public boolean login(String username, String password) throws EmptyPasswordThrowable, InvalidCredentialsThrowable {
+  public boolean login(String username, String password) throws EmptyPasswordException, InvalidCredentialsException {
     if(userRepo.containsKey(username) && userRepo.get(username) == password ) {
       return true;
     }
 
     if(password.isEmpty()) {
-      throw new EmptyPasswordThrowable();
+      throw new EmptyPasswordException();
     }
 
-    throw new InvalidCredentialsThrowable();
+    throw new InvalidCredentialsException();
   }
 }
