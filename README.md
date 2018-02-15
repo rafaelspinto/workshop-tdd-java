@@ -35,7 +35,7 @@ Prerequisites
 * You have [Maven](https://maven.apache.org/) installed
 
 
-## Tools/Frameworks
+## Testing Tools/Frameworks
 
 We will be using a few tools/frameworks to facilitate our job.
 
@@ -133,7 +133,7 @@ Typically most of the feedback comes from the user/client of your software, but 
 
 There are plenty of tools out there that can help you with this. In this workshop we will be using the following:
 
-* Automation Server - Allows you to automate the test execution ([Continuous Integration](#https://www.thoughtworks.com/continuous-integration)) and other routines associated with it ([Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)/[Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment/)). In this particular case we are using [Travis CI](https://travis-ci.org/).
+* Automation Server - Allows you to automate the test execution ([Continuous Integration](https://www.thoughtworks.com/continuous-integration)) and other routines associated with it ([Continuous Delivery](https://martinfowler.com/bliki/ContinuousDelivery.html)/[Continuous Deployment](https://www.agilealliance.org/glossary/continuous-deployment/)). In this particular case we are using [Travis CI](https://travis-ci.org/).
 
     You can check the current status of the workshop project by clicking the following badge:
 
