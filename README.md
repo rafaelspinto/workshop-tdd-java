@@ -24,7 +24,7 @@ Repeat
 * [Tools/Frameworks](#toolsframeworks)
 * [Naming conventions](#naming-conventions)
 * [AAA Pattern](#aaa-pattern)
-* [Mocks & Stubs](#mocksstubs)
+* [Mocks & Stubs](#mocks--stubs)
 
 ## Quick start
 
