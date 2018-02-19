@@ -1,7 +1,7 @@
 # TDD Workshop using Java
 [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Lines](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=ncloc)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Coverage](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=coverage)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Code Smells](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=code_smells)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Bugs](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=bugs)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Blockers](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=blocker_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Critical](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=critical_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
 
-This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) skills.
+This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) skills.
 
 The [examples](#examples) you will see in this workshop are designed to demonstrate the advantages and technicalities of TDD. The intention is to represent real-world scenarios, however sometimes that will not be possible in favour of simplicity.
 
@@ -19,6 +19,10 @@ This process uses the **red/green/refactor** pattern and consists of the followi
 5. Refactor
 
 Repeat  
+
+## What is BDD
+
+[Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) is a methodology that specifies acceptance criteria using a language that can be managed by business and by technology. The most well known implementation for this language is [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin).
 
 ## Table of contents
 
@@ -45,6 +49,7 @@ We will be using a few tools/frameworks to facilitate our job.
 * [JUnit](https://junit.org/junit4/) - Unit Testing Framework
 * [mockito](http://site.mockito.org/) - Mocking Framework for Unit Tests
 * [junit-dataprovider](https://github.com/TNG/junit-dataprovider) - Data Provider Runner for JUnit
+* [Cucumber-JVM](https://cucumber.io/docs/reference/jvm) - A BDD testing framework implementation for Java
 
 
 ## Naming conventions
@@ -63,7 +68,7 @@ You can define your own conventions keeping in mind that the test methods should
 * What is the Scenario (Input)
 * What should be the outcome (Output)
 
-Example:
+Example with a traditional approach (simple JUnit):
 
 ```java
 @Test
@@ -75,6 +80,18 @@ public void testSum_BothNumbersArePositive_ShouldReturnPositiveNumber() {
 The method name should be read as :
 
 Test sum **IF** both numbers are positive **THEN** should return positive number.
+
+Example with a BDD approach:
+
+```gherkin
+Feature: Calculator
+  The calculator supports the sum operation.
+
+  Scenario: Adding positive numbers
+    Given I use a calculator
+    When I add positive numbers
+    Then The result should be positive
+```
 
 
 ### AAA Pattern
