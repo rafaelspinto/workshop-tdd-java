@@ -3,11 +3,8 @@ package workshop.calculator;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import cucumber.api.junit.Cucumber;
 import org.junit.Assert;
-import org.junit.runner.RunWith;
 
-@RunWith(Cucumber.class)
 public class CalculatorBddTest {
 
   private Calculator calculator;
