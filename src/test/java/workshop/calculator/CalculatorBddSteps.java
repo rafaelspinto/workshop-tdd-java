@@ -4,10 +4,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
-import org.junit.Ignore;
 
-@Ignore
-public class CalculatorBddTest {
+public class CalculatorBddSteps {
 
   private Calculator calculator;
   private int result;
