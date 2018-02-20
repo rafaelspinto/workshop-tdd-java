@@ -22,7 +22,20 @@ Repeat
 
 ## What is BDD
 
-[Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) is a methodology that specifies acceptance criteria using a language that can be managed by business and by technology. The most well known implementation for this language is [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin).
+[Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) is a methodology that specifies acceptance criteria using a syntax that can be managed by business and by technology. The most well known implementation for this syntax is [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin).
+
+The Gherkin syntax has 3 main components that are represented by the following *keywords*:
+
+* **Feature** - maps to a feature of the software. e.g.: Login
+
+* **Scenario** - maps to a particular scenario of the usage of the feature.
+
+* **Step** - a step of the scenario. A step starts with one of the following keywords:
+
+    * **Given** - used for definition of context.
+    * **And** or **When** - used for events.
+    * **Then** or **But** - used for assertions.
+
 
 ## Table of contents
 
