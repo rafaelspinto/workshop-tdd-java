@@ -51,7 +51,7 @@ The Gherkin syntax has 3 main components that are represented by the following *
 
 Prerequisites
 
-* You have an IDE or a text editor
+* You have an IDE or a text editor (e.g.: [IntelliJ IDEA](https://www.jetbrains.com/idea/download))
 * You have [Maven](https://maven.apache.org/) installed
 
 
