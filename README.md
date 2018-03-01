@@ -1,5 +1,8 @@
-# TDD Workshop using Java
+# TDD Workshop using Java 
+[[Trello Board]](https://trello.com/b/rvbvAXFn/workshop-tdd-java)
+
 [![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Lines](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=ncloc)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Coverage](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=coverage)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Code Smells](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=code_smells)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Bugs](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=bugs)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Blockers](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=blocker_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Critical](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=critical_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
+
 
 This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) skills.
 
