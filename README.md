@@ -1,7 +1,12 @@
 # TDD Workshop using Java 
 [[Trello Board]](https://trello.com/b/rvbvAXFn/workshop-tdd-java)
 
-[![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java) [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Lines](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=ncloc)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Coverage](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=coverage)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Code Smells](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=code_smells)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Bugs](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=bugs)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Blockers](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=blocker_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Critical](https://sonarcloud.io/api/badges/measure?key=workshop:tdd-java&metric=critical_violations)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
+[![Build Status](https://travis-ci.org/rafaelspinto/workshop-tdd-java.svg?branch=master)](https://travis-ci.org/rafaelspinto/workshop-tdd-java) [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=alert_status
+)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Lines](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=ncloc
+)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=coverage
+)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=
+code_smells)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=
+bugs)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Technical debt](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric= sqale_index)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java) [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
 
 
 This workshop is designed to help you start or improve your [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) skills.
@@ -179,7 +184,7 @@ There are plenty of tools out there that can help you with this. In this worksho
 
     You can check the current status of the workshop project by clicking the following badge:
 
-    [![Quality Gate](https://sonarcloud.io/api/badges/gate?key=workshop:tdd-java)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
+    [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=workshop%3Atdd-java&metric=alert_status)](https://sonarcloud.io/dashboard?id=workshop%3Atdd-java)
 
 * **Kanban Board** - Allows you to track your project's work with a workflow visualization tool. In this project we are using [Trello](https://trello.com/).
 
